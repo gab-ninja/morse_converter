@@ -1,4 +1,5 @@
 # morse_converter
+Simple tool that converst morese code to ASCII and vice-versa
 
 **To run**
 
@@ -8,7 +9,7 @@ make
 ```
 
 
-**help**
+**For help**
 
 ```
 ./bin/converter -h
