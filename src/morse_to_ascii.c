@@ -25,5 +25,4 @@ void convert_morse_to_ascii(const char *sentence) {
         printf("%c", tree[--i]);
         sentence++;
     }
-    printf("\n");
 }
