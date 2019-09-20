@@ -17,19 +17,11 @@ int main(int argc, char const *argv[]) {
         return 0;
     }
 
-    // printf("%s\n", argv[1]);
     if (detects_if_is_morse(argv[1])) {
-        printf("Assuming Morse => ASCII conversion\n");
-        printf("[Original (Morse)]: %s\n", argv[1]);
-        set_cursor_cyan();
-        printf("[ASCII]: %s\n", argv[1]);
+        convert_morse_to_ascii(argv[1]);
         return 0;
     }
-    printf("Assuming ASCII => Morse conversion\n");
-    printf("[Original (ASCII)]: %s\n", argv[1]);
-    set_cursor_cyan();
-    printf("[Morse]: %s\n", argv[1]);
-
+    convert_ascii_to_morse(argv[1]);
     return 0;
 }
 
