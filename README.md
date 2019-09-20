@@ -1,5 +1,5 @@
 # morse_converter
-Simple tool that converst morse code to ASCII and vice-versa
+Simple tool that converts morse code to ASCII and vice-versa
 
 **To run**
 
