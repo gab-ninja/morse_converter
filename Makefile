@@ -6,7 +6,7 @@ CC = gcc
 # check-syntax: ex-compil.c
 # 	$(CC) -c ex-compil.c 
 
-compile: src/main.c src/morse_to_ascii.c src/ascii_to_morse.c
+compile: src/main.c src/morse_to_ascii.c src/ascii_to_morse.c src/fancy_terminal.c
 	$(CC) -o bin/converter $^ -I ./include
 
 clean:        
