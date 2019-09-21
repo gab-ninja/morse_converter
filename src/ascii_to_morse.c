@@ -7,7 +7,6 @@ void convert_ascii_to_morse(char *sentence) {
         ".-",   "-...", "-.-.", "-..",  ".",   "..-.", "--.",  "....", "..",
         ".---", "-.-",  ".-..", "--",   "-.",  "---",  ".--.", "--.-", ".-.",
         "...",  "-",    "..-",  "...-", ".--", "-..-", "-.--", "--..", "----"};
-
     int invalid_characters = 0;
 
     printf("Assuming ASCII => Morse conversion\n");
