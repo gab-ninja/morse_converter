@@ -37,4 +37,12 @@ void print_error_message() {
     printf("HINT: run 'converter -h' to see the full sintax\n");
 }
 
-void print_help_message() { printf("This will be the help manual someday\n"); }
+void print_help_message() {
+    printf(
+        "This is a simple tool that convers morse to ascii and "
+        "vice-versa.\nThe program accepts only one input argument. The input "
+        "argument is automaticcally parsed and then the program decides which "
+        "conversion to use.\nExamples of use:\n\t./bin/converter \"--. --- --- "
+        "-.. ---- .--- --- -... ---- --. ..- -.-- ...\"\n\t./bin/converter "
+        "\"GOOD job GuYs\"\n");
+}
